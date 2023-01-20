@@ -1,0 +1,78 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/b2a8/419f/557ed0c512c1dbd860eae9c033687d26?Expires=1675036800&Signature=QWdboswGg0fWEpQnRvMPBN354UNgmrAeh90SPg72CLyXOMoN9-ykOSZqhrxsNoNtVYbwGzkuQFij9ajyYJNH6pehVyddvtngVqRG3zKbVs-XHI4QnCj-ChHKdDOsI5thm3aUkgvHbKZBezdYcLboF9YiSI2vYUz-Hyjr~vKITILyC~SIPNysPrltTOVjDvX4-Zjd0qRHW38DDXTHhqJvlTG0aMrokhGAGgMnmygs1fOoaK6sv6sVhsSdc8U8mnXcLOS6G26DUCQhf~7vissEsx1vkHKB2WlbNM3bkxzjIZbVjjEcTHa9A~6NFPPCe33p7ZN4gVeMoLTkiUl4BxE6Pw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    font-family: sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 20px;
+   
+}
+.text{
+    color: white;
+    font-weight:600;
+    size:20px;
+    
+    cursor: pointer;
+}
+button{
+    background-color: #B7EAAF;
+    color: black;
+    padding:8px 12px;
+    border-radius: 10px;
+    font-weight:bold ;
+    cursor: pointer;
+    border: 1px solid #B7EAAF;
+    
+}
+section{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+    position: relative;
+}
+.content{
+    font-size: 65px;
+    font-weight: 600;
+}
+.description{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+.button2{
+    margin-top: 30px;  
+}
+.playButton{
+    position: absolute;
+    top: 159px;
+    right:719px;
+    
+}
+.material-symbols-rounded{
+    font-size: 80px !important;
+    /* fill: rgba(23, 53, 43, 0.5); */
+    /* stroke: rgba(255, 255, 255, 0.2); */
+    border-radius: 50%;
+    background-color:rgba(23, 53, 43, 0.5) ;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
+.picture{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
